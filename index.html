@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Imagenes/icono.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - fieldset y legend (Documentación).</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1><span class="naranja">HTML</span> - <span class="azul">fieldset</span> y <span class="azul">legend</span></h1>
+    <p>
+        Las etiquetas <span class="azul">legend</span> y <span class="azul">fieldset</span> en <span class="naranja">HTML</span> se utilizzan para agrupar elementos relacionados en un formulario, proporcionado una estructura lógica y mejorando la accesibilidad. La etiqueta <span class="azul">fieldset</span> crea un grupo de controles, y la etiqueta <span class="azul">legend</span> propociona una leyenda descriptiva para ese grupo.
+    </p>
+    <h2>Etiqueta <span class="azul">fieldset</span>.</h2>
+    <p>
+       La etiqueta <span class="azul">fieldset</span> se usa parar agrupar elementos relacionados dentro de un formulario. Visualmente, añade un borde alrededor del contenido que contiene, lo que ayuda a los usuarios a identificar grupos de campos relacionados. 
+    </p>
+    <b>Atributos de <span class="azul">fieldset</span></b>
+
+    <ul>
+        <li><code class="gris">disabled</code>: Desactiva todos los elementos dentro del <span class="azul">fieldset</span>.</li>
+        <li><code class="gris">form</code>: Asocia el <span class="azul">fieldset</span> a un formulario específico por su <span class="celeste">id</span>.</li>
+    </ul>
+    <h2>Etiqueta <span class="azul">legend</span>.</h2>
+
+    <p>
+        La etiqueta <span class="azul">legend</span> se utiliza dentro del <span class="azul">fieldset</span> para proporcionar una leyenda o título descriptivo para el grupo de campos. Esto ayuda a los usuarios a entender el propósito del conjunto de campos.
+    </p>
+<pre><code class="cpp">1    &lt;<span class="azul">fieldset</span>>
+2       &lt;<span class="azul">legend</span>>Seleccione su fruta favorita&lt;/<span class="azul">legend</span>>
+3           &lt;<span class="azul">select</span> <span class="celeste">id</span>=<span class="naranja">"frutas"</span> <span class="celeste">name</span>=<span class="naranja">"frutas"</span>>
+4               &lt;<span class="azul">option</span> <span class="celeste">value</span>=<span class="naranja">"manzana"</span>>Manzana&lt;/<span class="azul">option</span>>
+5               &lt;<span class="azul">option</span> <span class="celeste">value</span>=<span class="naranja">"platano"</span>>Plátano&lt;/<span class="azul">option</span>>
+6               &lt;<span class="azul">option</span> <span class="celeste">value</span>=<span class="naranja">"cereza"</span>>Cereza&lt;/<span class="azul">option</span>>
+7               &lt;<span class="azul">option</span> <span class="celeste">value</span>=<span class="naranja">"naranja"</span>>Naranja&lt;/<span class="azul">option</span>>
+8               &lt;<span class="azul">option</span> <span class="celeste">value</span>=<span class="naranja">"uva"</span>>Uva&lt;/<span class="azul">option</span>>
+9           &lt;/<span class="azul">select</span>>
+10  &lt;/<span class="azul">fieldset</span>></code></pre><br>
+        <div class="center">
+            <img src="Imagenes/imagen1.png" alt="">
+        </div>
+        <br>
+        <hr>
+        <br>
+</body>
+</html>
